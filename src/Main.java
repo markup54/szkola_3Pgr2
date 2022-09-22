@@ -4,8 +4,8 @@ public class Main {
         System.out.println("Hello world!");
         //Osoba jas = new Osoba("Jaś",10);
         //System.out.println(jas.getImie());
-        System.out.println(jas);
-        Osoba janek = new Uczen("Jaś",11);
-
+        //System.out.println(jas);
+        Uczen janek = new Uczen("Jaś",11);
+        System.out.println(janek);
     }
 }
