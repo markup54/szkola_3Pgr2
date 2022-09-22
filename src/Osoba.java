@@ -1,10 +1,13 @@
 public abstract class  Osoba {
-    private String imie;
-    private int wiek;
+    protected String imie;
+   private int wiek;
 
     public Osoba(String imie, int wiek) {
         this.imie = imie;
         this.wiek = wiek;
+    }
+
+    public Osoba() {
     }
 
     @Override
