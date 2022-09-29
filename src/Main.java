@@ -12,5 +12,9 @@ public class Main {
         System.out.println(wit1);
         Klasa kl3P = new Klasa("3P");
         kl3P.dodajUczniaDoKlasy(janek);
+        Szkola szkola = Szkola.getSzkola();
+        szkola.dodajUczniaDoKlasy(janek,kl3P);
+
+
     }
 }
