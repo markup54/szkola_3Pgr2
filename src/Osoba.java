@@ -22,7 +22,7 @@ public abstract class  Osoba {
     }
 
     public void setImie(String imie) {
-
+        //TODO  SPRAWDZIĆ CZY IMIĘ ZŁOZONE Z   samych liter i pierwsza duza
         this.imie = imie;
     }
 
